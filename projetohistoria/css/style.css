@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    background: #77888C;
+    padding: 15px;
+    color: white;
+    border: 2px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+
+nav{
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover{
+    color: black;
+    padding: 3px;
+    background-color: white;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+/* Header Fim */
+
+/* Main */
+
+main{
+    text-align: center;
+    justify-content: center;
+    background: rgb(230, 221, 204);
+}
+
+main p{
+    padding-top: 20px;
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    max-width: 40vw;
+    margin: auto;
+}
+
+@media (max-width: 1000px){
+    main p{
+        max-width: 55vw;
+    }
+}
+
+main a{
+    color: rgb(30, 87, 211);
+    transition: 0.25s;
+}
+
+main a:hover{
+    color:rgb(30, 87, 211);
+    background-color: black;
+    padding: 3px;
+    transition: 0.5s
+}
+
+img{
+    margin-top: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px rgb(0, 0, 0, 25%);
+    max-width: 60vw;
+    max-height: 60vw;
+}
+
+#atual{
+    color: rgb(30, 87, 211);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#titulos{
+    font-size: large;
+    font-weight: bold;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+table img{
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+@media (max-width: 700) {
+    p{
+        font-size: 10px;
+    }
+}
+
+.conteudo{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+td{
+    max-width: 25vw;
+}
+
+#imagemprincipal{
+    width: 600px;
+    height: 432px;
+}
+
+/* Main Fim */
+
+/* Footer */
+
+footer{
+    background-color: #77888C;
+    border: 2px solid black;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Fim */
+
+
+
